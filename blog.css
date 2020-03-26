@@ -1,0 +1,148 @@
+body
+{
+  background-image:url(http://i2.tiimg.com/714092/1688eef40fbeb56a.jpg);
+  background-size:100%;
+  background-repeat:no-repeat;
+  -webkit-animation:flow 8s infinite;
+  animation:flow 8s infinite;
+
+}
+
+@keyframes flow
+{
+  50%{background-size:105%;}
+}
+
+@-webkit-keyframes flow
+{
+  50%{background-size:105%;}
+}
+
+
+
+
+
+}
+.row
+{
+  min-height: 100%;
+  display: flex;
+  justify-content: space-around;
+}
+.main-sec {
+  width: 60%;
+ position: absolute;
+  left: 4%;
+  top: 5%
+}
+
+
+
+.article {
+  margin: 40px ;
+  border-radius: 20px;
+  transition: 0.3s;
+  box-shadow: 0 5px 10px 0 #0006;
+  width: 100%
+
+
+}
+
+
+.article:hover { box-shadow: 0 10px 20px 0 #0006; }
+
+.article a {
+  text-decoration: none;
+  -webkit-tap-highlight-color: transparent;
+}
+
+.article h2 {
+  margin: 0px;
+  padding: 60px;
+  border-radius: 20px 20px 20px 20px;
+  background-size: 100%;
+  background-image: url(https://images.alphacoders.com/736/736461.png);
+  background-repeat: no-repeat;
+  color: #fff;
+  align: center;
+}
+.bground1
+{
+  align:center;
+  background-position:top;
+}
+.bground2
+{
+  align:center;
+  background-position:center;
+}
+.bground3
+{
+  align:center;
+  background-position:bottom;
+}
+@media screen and (max-width: 1000px)
+{
+      body
+      {
+        background-image:url(https://i0.hdslb.com/bfs/article/7f40db33337a978471feae1b87ca61ded82bf51c.jpg@1312w_2638h.webp)
+      }
+      .article h2 {
+        margin: 0px;
+        padding: 200px;
+        border-radius: 20px 20px 20px 20px;
+        color: #fff;
+        align: center;
+        font-size: 75px;
+        background-image:none;
+      }
+      .article {
+        margin: 40px 0 0 0  ;
+        border-radius: 20px;
+        transition: 0.3s;
+        box-shadow: 0 5px 10px 0 #0006;
+        width: 100%
+      }
+      .main-sec {
+        width: 95%;
+        position: absolute;
+        top: 5%;
+        left:2.5%;
+      }
+      .bground1
+      {
+
+      }
+      .bground2
+      {
+
+      }
+      .bground3
+      {
+
+      }
+}
+
+/*.cover {
+    width: 600px;
+    height: 300px;
+    position: absolute;
+    //text-align: center;
+    line-height:100px;
+    color: #fff;
+    margin: 20px  10%;
+
+}
+
+.cover::before {
+    content: "";
+    position: absolute;
+    top: 0px;
+    left: 0;
+    width: 600px;
+    height: 100px;
+    background: transparent url(pe0.jpg) center center no-repeat;
+    filter: blur(8px);
+    z-index: -1;
+    background-size:30%;
+}*/
